@@ -1,38 +1,67 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
-import Home from "./Home.jsx"
-import SignUp from "./SignUp.jsx"
-import Navbar from './Components/Navbar.jsx'
-import {Routes, Route} from 'react-router-dom'
- import{
-    firebaseConfig,
-    initializeApp,
-    getAuth, 
-    createUserWithEmailAndPassword,
+import Signin from "./Pages/Signin.jsx"
+import SignUp from "./Pages/SignUp.jsx"
+import Dashboad from './Pages/Dashboad.jsx'
+import {Navigate,Routes, Route} from 'react-router-dom'
+import { initializeApp } from "firebase/app";
+import { getAuth,
    onAuthStateChanged,
-    signInWithEmailAndPassword,
-    signOut,
-    GoogleAuthProvider, 
-    signInWithPopup
-  } from './Firebase.js'
+ } from "firebase/auth";
 
-  // Initialize Firebase
-  // const app = initializeApp(firebaseConfig);
-  // const auth = getAuth(app);
-  // console.log(auth)
 
 
 function App() {
+
+  const firebaseConfig = {
+  apiKey: "AIzaSyBIBVVl1-qah5qPAns6ULaO8QmjfcnugiA",
+  authDomain: "ecommerce-7f1e2.firebaseapp.com",
+  databaseURL: "https://ecommerce-7f1e2-default-rtdb.firebaseio.com",
+  projectId: "ecommerce-7f1e2",
+  storageBucket: "ecommerce-7f1e2.firebasestorage.app",
+  messagingSenderId: "1090647740235",
+  appId: "1:1090647740235:web:525b9d48f10087cc7022ce",
+  measurementId: "G-LZLVCX6VZ6"
+};
+
+const app = initializeApp(firebaseConfig);
+  const auth = getAuth(app);
+
+  const [isUserLogedin , setIsUserLogedin] = useState(null)
+
+  useEffect (() => {
+      onAuthStateChanged(auth, (user) => {
+  if (user) {
+    setIsUserLogedin(true)
+    console.log(user)
+  } else {
+   setIsUserLogedin(false)
+   console.log(user)
+  }
+});
+},[])
+
+
   return (
-    <>
-    <Navbar/>
-    <Routes>
-    <Route path = "/" element = {<Home/>} />
-    <Route path = "/signup" element = {<SignUp/>}/>
+    <div className='App'>
+      {isUserLogedin == null ? (
+        <div> Loading ... </div>
+      ): isUserLogedin ? (
+        <Routes>
+    <Route path='/' element={<Dashboad/>}/>
+    <Route path = "*" element = {<Navigate to={"/"}/>}/>
     </Routes>
-    </>
+      ):(
+        <Routes>
+          <Route path='/login' element = {<Signin/>}/>
+          <Route path='/signup' element = {<SignUp/>}/>
+          <Route path='*' element={<Navigate to={"/login"}/>}/>
+        </Routes>
+      )}
+
+    </div>
 
   )
 }
