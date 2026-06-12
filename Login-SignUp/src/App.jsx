@@ -4,14 +4,23 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import Signin from "./Pages/Signin.jsx"
 import SignUp from "./Pages/SignUp.jsx"
-import Dashboad from './Pages/Dashboad.jsx'
+import Dashboad from './Components/Dashboad.jsx'
 import {Navigate,Routes, Route} from 'react-router-dom'
 import { initializeApp } from "firebase/app";
 import { getAuth,
    onAuthStateChanged,
  } from "firebase/auth";
-
-
+import About from './Pages/About.jsx'
+import WebDevelopment from './Pages/WebDevelopement.jsx'
+import DigitalMarketing from './Pages/DigitalMarketing.jsx'
+import AppDevelopment from './Pages/AppDevelopment.jsx'
+import UiUxDesigner from './Pages/UiUxDesigner.jsx'
+import ArtificalIntelligence from './Pages/ArtificalIntelligence.jsx'
+import GraphicsDesigner from './Pages/GraphicsDesigner.jsx' 
+import Navbar from './Components/Navbar.jsx'
+import Blog from './Pages/Blog.jsx'
+import Pricing from './Pages/Pricing.jsx'
+import Contact from './Pages/Contact.jsx'
 
 function App() {
 
@@ -46,11 +55,22 @@ const app = initializeApp(firebaseConfig);
 
   return (
     <div className='App'>
+       <Navbar />
       {isUserLogedin == null ? (
         <div> Loading ... </div>
       ): isUserLogedin ? (
         <Routes>
     <Route path='/' element={<Dashboad/>}/>
+    <Route path='/about' element={<About/>}/>
+    <Route path='/services/webdevelopment' element={<WebDevelopment/>}/>
+    <Route path='/services/digitalmarketing' element={<DigitalMarketing/>}/>
+    <Route path='/services/appdevelopment' element={<AppDevelopment/>}/>
+    <Route path='/services/uiuxdesigner' element={<UiUxDesigner/>}/>
+    <Route path='/services/artificalintelligence' element={<ArtificalIntelligence/>}/>
+    <Route path='/services/graphicsdesigner' element={<GraphicsDesigner/>}/>
+    <Route path='/blog' element={<Blog/>}/>
+    <Route path='/pricing' element={<Pricing/>}/>
+    <Route path='/contact' element={<Contact/>}/>
     <Route path = "*" element = {<Navigate to={"/"}/>}/>
     </Routes>
       ):(
