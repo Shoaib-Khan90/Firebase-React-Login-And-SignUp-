@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { getAuth, signOut } from "firebase/auth";
 
 const Navbar = () => {
@@ -14,7 +15,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="px-20 py-6 flex justify-between items-center ">
+    <nav className="sticky top-0 z-50 bg-white px-20 py-6 flex justify-between items-center">
 
       {/* LOGO */}
       <img
@@ -38,7 +39,7 @@ const Navbar = () => {
         <li className="relative">
           <button
             onClick={() => setOpen(!open)}
-            className="cursor-pointer"
+            className="cursor-pointer uppercase"
           >
             Services
           </button>
@@ -83,7 +84,7 @@ const Navbar = () => {
         </li>
 
         {/* PHONE */}
-        <li className="flex items-center gap-2 text-sm">
+        <li className="flex font-[sans] font-medium items-center gap-2 text-sm">
           <FontAwesomeIcon className="text-blue-600" icon={faPhone} />
           (720) 360-0903
         </li>
@@ -94,7 +95,7 @@ const Navbar = () => {
       <div className="flex items-center gap-4">
 
         <button className="uppercase text-[14px] px-6 py-2 text-white rounded-md bg-gradient-to-r from-[#6754E9] to-[#4534B8]">
-         <Link to="/contact">Lets Talk</Link> 
+         <Link to="/contact">Lets Talk <FontAwesomeIcon icon={faArrowRight} /></Link> 
         </button>
 
         <button
