@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { faCaretRight } from "@fortawesome/free-solid-svg-icons"; 
 import { faSquareCheck } from "@fortawesome/free-solid-svg-icons";
 const Dashboad = () => {
+   const [service, setService] = useState("web");
   return (
     <div>
     <div
@@ -46,57 +48,188 @@ const Dashboad = () => {
 </div>
  </div>
 
- <div className="flex w-[950px] h-[430px] ml-40 mt-10 mb-10 rounded-[40px] border-gray-400 border-1   overflow-hidden">
-
-  {/* Left Side Menu */}
+{/* // Works */}
+ <div className="flex w-[1050px] h-[430px] ml-30 mt-10  rounded-[40px] bg-[#F7F7FA] overflow-hidden">
   <div className="w-[300px] bg-[#4C3BC2]  p-8 flex flex-col gap-4">
     
-    <button className="w-80 px-6 py-3 bg-black text-white font-syne text-[16px] font-semibold rounded-[50px] shadow-md">
-      Web Development <FontAwesomeIcon className="rounded-[50px] border-blue-500 border-2 bg-blue-500 ml-27" icon={faCaretRight} />
-    </button>
+    <button
+  onClick={() => setService("web")}
+  className="w-80 px-6 py-3 bg-black text-white font-syne text-[16px] font-semibold rounded-[50px] shadow-md"
+>
+  Web Development
+  <FontAwesomeIcon
+    className="rounded-[50px] border-blue-500 border-2 bg-blue-500 ml-27"
+    icon={faCaretRight}
+  />
+</button>
 
-    <button className="w-67 px-6 py-3 text-white text-left  hover:text-white hover:bg-black rounded-bl-[50px] rounded-tl-[50px] transition-all duration-300">
-      App Development
-    </button>
+<button
+  onClick={() => setService("app")}
+  className="w-67 px-6 py-3 focus:bg-black text-white text-left hover:text-white hover:bg-black rounded-bl-[50px] rounded-tl-[50px] transition-all duration-300"
+>
+  App Development
+</button>
 
-    <button className="w-67 px-6 py-3 text-white text-left  hover:text-white hover:bg-black rounded-bl-[50px] rounded-tl-[50px] transition-all duration-300">
-      UI/UX Designer
-    </button>
+<button
+  onClick={() => setService("uiux")}
+  className="w-67 px-6 py-3 focus:bg-black text-white text-left hover:text-white hover:bg-black rounded-bl-[50px] rounded-tl-[50px] transition-all duration-300"
+>
+  UI/UX Designer
+</button>
 
-    <button className="w-67 px-6 py-3 text-white text-left  hover:text-white hover:bg-black rounded-bl-[50px] rounded-tl-[50px] transition-all duration-300">
-      Digital Marketing
-    </button>
+<button
+  onClick={() => setService("digital")}
+  className="w-67 px-6 py-3 focus:bg-black text-white text-left hover:text-white hover:bg-black rounded-bl-[50px] rounded-tl-[50px] transition-all duration-300"
+>
+  Digital Marketing
+</button>
 
-    <button className="w-67 px-6 py-3 text-white text-left  hover:text-white hover:bg-black rounded-bl-[50px] rounded-tl-[50px] transition-all duration-300">
-      Artificial Intelligence
-    </button>
+<button
+  onClick={() => setService("ai")}
+  className="w-67 px-6 py-3 focus:bg-black text-white text-left hover:text-white hover:bg-black rounded-bl-[50px] rounded-tl-[50px] transition-all duration-300"
+>
+  Artificial Intelligence
+</button>
 
-    <button className="w-67 px-6 py-3 text-white text-left  hover:text-white hover:bg-black rounded-bl-[50px] rounded-tl-[50px] transition-all duration-300">
-      Graphics Designer
-    </button>
+<button
+  onClick={() => setService("graphics")}
+  className="w-67 px-6 py-3 focus:bg-black text-white text-left hover:text-white hover:bg-black rounded-bl-[50px] rounded-tl-[50px] transition-all duration-300"
+>
+  Graphics Designer
+</button>
   </div>
 
   {/* Right Side Content */}
 
+    {/* <div className="flex"> */}
+      <div className="mt-27 ml-20 w-full">
+  {service === "web" && (
     <div className="flex">
-      <div>
-      <p className="text-3xl font-bold">
+    <div className="w-[300px]">
+      <p className=" leading-4.9 font-medium text-[15px]">
         Build fast, secure, and scalable websites that rank and convert.
       </p>
-
-      <p><FontAwesomeIcon className="text-blue-500 rounded-[50px]" icon={faSquareCheck} /> Custom Website Design & Developmen </p>
-      <p><FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 rounded-[50px]" /> Responsive & Mobile-First Design </p>
-      <p><FontAwesomeIcon className="text-blue-500 rounded-[50px]" icon={faSquareCheck} /> SEO-Optimized Structure </p>
-      <p><FontAwesomeIcon className="text-blue-500 rounded-[50px]" icon={faSquareCheck} /> High-Speed Performance </p>
-      <p><FontAwesomeIcon className="text-blue-500 rounded-[50px]" icon={faSquareCheck} /> CMS Development WordPress and Shopify </p>
-
-
+      <p className="font-[kanit] text-[14px] mt-5"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> Custom Website Design & Development</p>
+      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> Responsive & Mobile-First Design</p>
+      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> SEO-Optimized Structure</p>
+      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> High-Speed Performance</p>
+      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> CMS Development WordPress & Shopify</p>
       </div>
-      <div >
-      <img src="./src/Images/Home/Web Development.png" alt="" />
-      </div>
+      <div className="mt-[-32px] ml-[20px]">
+        <img src="./src/Images/Home/Web Development.png" />
     </div>
+    </div>
+  )}
+
+ {service === "app" && (
+    <div className="flex">
+    <div className="w-[300px]">
+      <p className=" leading-4.9 font-medium text-[15px]">
+        Build fast, secure, and scalable websites that rank and convert.
+      </p>
+      <p className="font-[kanit] text-[14px] mt-5"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> Custom Website Design & Development</p>
+      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> Responsive & Mobile-First Design</p>
+      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> SEO-Optimized Structure</p>
+      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> High-Speed Performance</p>
+      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> CMS Development WordPress & Shopify</p>
+      </div>
+      <div className="mt-[-32px] ml-[20px]">
+        <img src="./src/Images/Home/App development.png" />
+    </div>
+    </div>
+  )}
+
+   {service === "uiux" && (
+    <div className="flex">
+    <div className="w-[300px]">
+      <p className=" leading-4.9 font-medium text-[15px]">
+        Build fast, secure, and scalable websites that rank and convert.
+      </p>
+      <p className="font-[kanit] text-[14px] mt-5"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> Custom Website Design & Development</p>
+      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> Responsive & Mobile-First Design</p>
+      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> SEO-Optimized Structure</p>
+      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> High-Speed Performance</p>
+      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> CMS Development WordPress & Shopify</p>
+      </div>
+      <div className="mt-[-32px] ml-[20px]">
+        <img src="./src/Images/Home/UI UX Design.png" />
+    </div>
+    </div>
+  )}
+
+   
+   {service === "digital" && (
+    <div className="flex">
+    <div className="w-[300px]">
+      <p className=" leading-4.9 font-medium text-[15px]">
+        Build fast, secure, and scalable websites that rank and convert.
+      </p>
+      <p className="font-[kanit] text-[14px] mt-5"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> Custom Website Design & Development</p>
+      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> Responsive & Mobile-First Design</p>
+      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> SEO-Optimized Structure</p>
+      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> High-Speed Performance</p>
+      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> CMS Development WordPress & Shopify</p>
+      </div>
+      <div className="mt-[-32px] ml-[20px]">
+        <img src="./src/Images/Home/Digital Marketing.png" />
+    </div>
+    </div>
+  )}
+
+   {service === "ai" && (
+    <div className="flex">
+    <div className="w-[300px]">
+      <p className=" leading-4.9 font-medium text-[15px]">
+        Build fast, secure, and scalable websites that rank and convert.
+      </p>
+      <p className="font-[kanit] text-[14px] mt-5"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> Custom Website Design & Development</p>
+      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> Responsive & Mobile-First Design</p>
+      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> SEO-Optimized Structure</p>
+      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> High-Speed Performance</p>
+      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> CMS Development WordPress & Shopify</p>
+      </div>
+      <div className="mt-[-32px] ml-[20px]">
+        <img src="./src/Images/Home/AI.png" />
+    </div>
+    </div>
+  )}
+
+   {service === "graphics" && (
+    <div className="flex">
+    <div className="w-[300px]">
+      <p className=" leading-4.9 font-medium text-[15px]">
+        Build fast, secure, and scalable websites that rank and convert.
+      </p>
+      <p className="font-[kanit] text-[14px] mt-5"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> Custom Website Design & Development</p>
+      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> Responsive & Mobile-First Design</p>
+      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> SEO-Optimized Structure</p>
+      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> High-Speed Performance</p>
+      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> CMS Development WordPress & Shopify</p>
+      </div>
+      <div className="mt-[-32px] ml-[20px]">
+        <img src="./src/Images/Home/Logo.png" />
+    </div>
+    </div>
+  )}
+  <p className="font-[syne] font-bold text-[14px] mt-[-60px]">
+    LEARN MORE
+  </p>
 </div>
+</div>
+
+{/* //About */}
+
+<div className="flex ml-20 gap-20">
+<div>
+  <h1 className="text-[16px] uppercase font-[syne] mt-10 ml-20">about SOLVEPEAK</h1>
+  <h2 className="font-[syne] ml-20 text-[48px] leading-14.5">We turn customer <br /> insights into digital success</h2>
+</div>
+<div className="w-[550px] ml-[-90px] ">
+  <p className="mt-14 text-[#00000092] text-[16px] font-[kanit] ">
+Our work goes beyond trends. We deliver forward-thinking marketing, <br /> powerful software, and timeless design to future-proof your business.</p>
+  <p className="text-[12px] font-[syne] mt-10 uppercase font-bold">more about our unique approach</p>
+</div>
+ </div>
 </div>
   );
 };
