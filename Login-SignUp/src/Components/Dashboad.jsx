@@ -24,17 +24,17 @@ const Dashboad = () => {
 </button>
     </div>
     <div className="mt-20 ml-20">
-      <img src="./src/Images/Home/a.png" width="410px" height="500px" />
+      <img src="./Images/Home/a.png" width="410px" height="500px" />
     </div>
 </div>
 
 <div className="flex w-full bg-[#F7F7FA] rounded-br-[40px] rounded-bl-[40px] p-5 gap-8">
   <h1 className="uppercase font-[syne]">A Partner, Not a <br /> Vendor</h1>
-  <img src="./src/Images/Home/Vector5.png" width="100px" />
-  <img src="./src/Images/Home/Vector (1).png" width="100px" />
-  <img src="./src/Images/Home/Vector (2).png" width="100px"  />
-  <img src="./src/Images/Home/Vector (3).png" width="100px" />
-  <img src="./src/Images/Home/Vector (4).png" width="100px" />
+  <img src="./Images/Home/Vector5.png" width="100px" />
+  <img src="./Images/Home/Vector (1).png" width="100px" />
+  <img src="./Images/Home/Vector (2).png" width="100px"  />
+  <img src="./Images/Home/Vector (3).png" width="100px" />
+  <img src="./Images/Home/Vector (4).png" width="100px" />
 </div>
 
 <div className="flex ml-20 gap-20">
@@ -116,7 +116,7 @@ const Dashboad = () => {
       <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> CMS Development WordPress & Shopify</p>
       </div>
       <div className="mt-[-32px] ml-[20px]">
-        <img src="./src/Images/Home/Web Development.png" />
+        <img src="./Images/Home/Web Development.png" />
     </div>
     </div>
   )}
@@ -134,7 +134,7 @@ const Dashboad = () => {
       <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> CMS Development WordPress & Shopify</p>
       </div>
       <div className="mt-[-32px] ml-[20px]">
-        <img src="./src/Images/Home/App development.png" />
+        <img src="./Images/Home/App development.png" />
     </div>
     </div>
   )}
@@ -152,7 +152,7 @@ const Dashboad = () => {
       <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> CMS Development WordPress & Shopify</p>
       </div>
       <div className="mt-[-32px] ml-[20px]">
-        <img src="./src/Images/Home/UI UX Design.png" />
+        <img src="./Images/Home/UI UX Design.png" />
     </div>
     </div>
   )}
@@ -171,7 +171,7 @@ const Dashboad = () => {
       <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> CMS Development WordPress & Shopify</p>
       </div>
       <div className="mt-[-32px] ml-[20px]">
-        <img src="./src/Images/Home/Digital Marketing.png" />
+        <img src="./Images/Home/Digital Marketing.png" />
     </div>
     </div>
   )}
@@ -189,7 +189,7 @@ const Dashboad = () => {
       <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> CMS Development WordPress & Shopify</p>
       </div>
       <div className="mt-[-32px] ml-[20px]">
-        <img src="./src/Images/Home/AI.png" />
+        <img src="./Images/Home/AI.png" />
     </div>
     </div>
   )}
@@ -207,7 +207,7 @@ const Dashboad = () => {
       <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> CMS Development WordPress & Shopify</p>
       </div>
       <div className="mt-[-32px] ml-[20px]">
-        <img src="./src/Images/Home/Logo.png" />
+        <img src="./Images/Home/Logo.png" />
     </div>
     </div>
   )}
