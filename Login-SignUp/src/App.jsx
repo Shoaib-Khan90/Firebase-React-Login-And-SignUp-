@@ -55,33 +55,35 @@ const app = initializeApp(firebaseConfig);
 
   return (
     <div className='App'>
-       <Navbar />
-      {isUserLogedin == null ? (
-        <div> Loading ... </div>
-      ): isUserLogedin ? (
-        <Routes>
-    <Route path='/' element={<Dashboad/>}/>
-    <Route path='/about' element={<About/>}/>
-    <Route path='/services/webdevelopment' element={<WebDevelopment/>}/>
-    <Route path='/services/digitalmarketing' element={<DigitalMarketing/>}/>
-    <Route path='/services/appdevelopment' element={<AppDevelopment/>}/>
-    <Route path='/services/uiuxdesigner' element={<UiUxDesigner/>}/>
-    <Route path='/services/artificalintelligence' element={<ArtificalIntelligence/>}/>
-    <Route path='/services/graphicsdesigner' element={<GraphicsDesigner/>}/>
-    <Route path='/blog' element={<Blog/>}/>
-    <Route path='/pricing' element={<Pricing/>}/>
-    <Route path='/contact' element={<Contact/>}/>
-    <Route path = "*" element = {<Navigate to={"/"}/>}/>
-    </Routes>
-      ):(
-        <Routes>
-          <Route path='/login' element = {<Signin/>}/>
-          <Route path='/signup' element = {<SignUp/>}/>
-          <Route path='*' element={<Navigate to={"/login"}/>}/>
-        </Routes>
-      )}
+  {isUserLogedin == null ? (
+    <div>Loading...</div>
+  ) : isUserLogedin ? (
+    <>
+      <Navbar />
 
-    </div>
+      <Routes>
+        <Route path='/' element={<Dashboad />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/services/webdevelopment' element={<WebDevelopment />} />
+        <Route path='/services/digitalmarketing' element={<DigitalMarketing />} />
+        <Route path='/services/appdevelopment' element={<AppDevelopment />} />
+        <Route path='/services/uiuxdesigner' element={<UiUxDesigner />} />
+        <Route path='/services/artificalintelligence' element={<ArtificalIntelligence />} />
+        <Route path='/services/graphicsdesigner' element={<GraphicsDesigner />} />
+        <Route path='/blog' element={<Blog />} />
+        <Route path='/pricing' element={<Pricing />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='*' element={<Navigate to="/" />} />
+      </Routes>
+    </>
+  ) : (
+    <Routes>
+      <Route path='/login' element={<Signin />} />
+      <Route path='/signup' element={<SignUp />} />
+      <Route path='*' element={<Navigate to="/login" />} />
+    </Routes>
+  )}
+</div>
 
   )
 }
