@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { faCaretRight } from "@fortawesome/free-solid-svg-icons"; 
 import { faSquareCheck } from "@fortawesome/free-solid-svg-icons";
+import { faCircle } from "@fortawesome/free-solid-svg-icons";
 const Dashboad = () => {
    const [service, setService] = useState("web");
   return (
@@ -221,15 +222,41 @@ const Dashboad = () => {
 
 <div className="flex ml-20 gap-20">
 <div>
-  <h1 className="text-[16px] uppercase font-[syne] mt-10 ml-20">about SOLVEPEAK</h1>
-  <h2 className="font-[syne] ml-20 text-[48px] leading-14.5">We turn customer <br /> insights into digital success</h2>
+  <h1 className="text-[16px] uppercase font-[syne] mt-10 ml-13">about SOLVEPEAK</h1>
+  <h2 className="font-[syne] ml-13 text-[48px] leading-14.5">We turn customer <br /> insights into digital success</h2>
 </div>
-<div className="w-[550px] ml-[-90px] ">
+<div className="w-[550px] ml-[-60px] ">
   <p className="mt-14 text-[#00000092] text-[16px] font-[kanit] ">
 Our work goes beyond trends. We deliver forward-thinking marketing, <br /> powerful software, and timeless design to future-proof your business.</p>
   <p className="text-[12px] font-[syne] mt-10 uppercase font-bold">more about our unique approach</p>
 </div>
  </div>
+
+{/* //100% */}
+
+ <div className="flex gap-5 mt-10 justify-center">
+  <div className="ml-22 ">
+    <FontAwesomeIcon className="text-blue-500 text-[12px]" icon={faCircle} />
+    <div className="border-1 text-gray-500 border-dashed  w-[200px]"></div>
+    <p className="font-medium w-[200px] text-[14px]">100% client retention for over two years</p>
+  </div>
+  <div className="">
+    <FontAwesomeIcon className="text-blue-500 text-[12px]" icon={faCircle} />
+    <div className="border-1 text-gray-500 border-dashed  w-[250px]"></div>
+    <p className="font-medium w-[250px] text-[14px]">Trusted by the world’s fastest-growing startups</p>
+  </div>
+  <div className="">
+    <FontAwesomeIcon className="text-blue-500 text-[12px]" icon={faCircle} />
+    <div className="border-1 text-gray-500 border-dashed  w-[300px]"></div>
+    <p className="font-medium w-[300px] text-[14px]" >A global team of expert marketers, designers, and storytellers</p>
+  </div>
+  <div className="">
+    <FontAwesomeIcon className="text-blue-500 text-[12px]" icon={faCircle} />
+    <div className="border-1 text-gray-500 border-dashed  w-[300px]"></div>
+    <p className="font-medium w-[300px] text-[14px]">We've helped brands break into new markets and grow faster</p>
+  </div>
+ </div>
+
 </div>
   );
 };
