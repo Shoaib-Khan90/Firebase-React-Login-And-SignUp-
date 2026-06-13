@@ -19,7 +19,7 @@ const Navbar = () => {
 
       {/* LOGO */}
       <img
-        src="./public/Images/Home/MainLogo.png"
+        src="./Images/Home/MainLogo.png"
         alt="logo"
         className="w-36"
       />
