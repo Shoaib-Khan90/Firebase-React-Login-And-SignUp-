@@ -257,6 +257,127 @@ Our work goes beyond trends. We deliver forward-thinking marketing, <br /> power
   </div>
  </div>
 
+  {/* Outcome Section */}
+
+ <div className="relative">
+
+  <div className="w-[1050px] h-[490px] ml-30 mt-15 bg-gradient-to-r from-[#6754E9] to-[#4534B8] rounded-[20px] relative z-10">
+    
+    <div className="flex gap-30">
+      <h1 className="text-white font-[syne] font-bold text-[30px] ml-10 p-5">
+        Outcome, not output
+      </h1>
+
+      <p className="text-white font-[kanit] text-[16px] w-[500px] p-5">
+        Solvepeak is a tech-enabled digital marketing solutions provider, and we create custom strategies for each of our clients based on their needs and goals. As a result, we’ve driven over $3 billion in sales and over 7.8 million leads for our clients.
+      </p>
+    </div>
+
+    <div className="ml-10">
+      <img
+        src="./Images/Home/outcome-service 1.png"
+        width="880px"
+        alt=""
+      />
+    </div>
+
+  </div>
+
+  {/* Services Section */}
+  <div className="mt-[-120px] pt-[150px] bg-gradient-to-r from-[#E9E5FF] to-[#F7F7FA]">
+
+    <div className="p-10 ml-25">
+      <h1 className="mt-10 font-[syne] text-[16px] uppercase font-bold">
+        OUR SERVICES
+      </h1>
+
+      <p className="font-[syne] text-[38px] font-bold lowercase">
+        Digital Services Built For Growth
+      </p>
+    </div>
+
+    {/* serviice part */}
+
+    <div className="grid grid-cols-4 gap-y-12 gap-x-8 justify-items-center mt-16 px-10">
+
+  {/* Card 1 */}
+  <div className="relative w-[290px] h-[260px] bg-white rounded-[32px] pt-16 text-center border border-transparent shadow-[0_10px_30px_rgba(0,0,0,0.08)] hover:border-black hover:shadow-[0_15px_40px_rgba(0,0,0,0.12)] transition-all duration-300">
+
+    <img
+      className="absolute -top-10 left-1/2 -translate-x-1/2"
+      src="./Images/Home/Frame 2147223459.png"
+      alt=""
+    />
+
+    <h2 className="font-bold font-[syne] text-[20px] mt-[-12px]">
+      Web <br /> Development
+    </h2>
+
+    <p className="px-5 mt-4 font-[kanit] text-[#000000B2] text-[14px]">
+      Custom, high-performance websites optimized for speed, scalability, and seamless user experiences.
+    </p>
+
+    <p className="mt-8 font-[syne] text-[12px] font-bold uppercase">
+      LEARN MORE
+    </p>
+
+  </div>
+
+  {/* Card 2 */}
+  <div className="relative w-[290px] h-[260px] bg-white rounded-[32px] pt-16 text-center border border-transparent shadow-[0_10px_30px_rgba(0,0,0,0.08)] hover:border-black hover:shadow-[0_15px_40px_rgba(0,0,0,0.12)] transition-all duration-300">
+    <img className="absolute -top-10 left-1/2 -translate-x-1/2" src="./Images/Home/Frame 2147223459 (1).png" alt="" />
+    <h2 className="font-bold font-[syne] text-[20px] mt-[-12px]">App <br /> Development</h2>
+    <p className="px-5 mt-4 font-[kanit] text-[#000000B2] text-[14px]">
+     From concept to code, we build intuitive, feature-rich mobile and web apps that deliver real value.
+    </p>
+    <p className="mt-8 font-[syne] text-[12px] font-bold uppercase">LEARN MORE</p>
+  </div>
+
+  {/* Card 3 */}
+  <div className="relative w-[290px] h-[260px] bg-white rounded-[32px] pt-16 text-center border border-transparent shadow-[0_10px_30px_rgba(0,0,0,0.08)] hover:border-black hover:shadow-[0_15px_40px_rgba(0,0,0,0.12)] transition-all duration-300">
+    <img className="absolute -top-10 left-1/2 -translate-x-1/2" src="./Images/Home/Frame 2147223459 (2).png" alt="" />
+    <h2 className="font-bold font-[syne] text-[20px] mt-[-12px]">UI/UX <br /> Designer</h2>
+    <p className="px-5 mt-4 font-[kanit] text-[#000000B2] text-[14px]">
+      Smart, user-first designs that increase engagement, streamline journeys, and elevate brand perception.
+    </p>
+    <p className="mt-8 font-[syne] text-[12px] font-bold uppercase">LEARN MORE</p>
+  </div>
+
+  {/* Card 4 */}
+  <div className="relative w-[290px] h-[260px] bg-white rounded-[32px] pt-16 text-center border border-transparent shadow-[0_10px_30px_rgba(0,0,0,0.08)] hover:border-black hover:shadow-[0_15px_40px_rgba(0,0,0,0.12)] transition-all duration-300">
+    <img className="absolute -top-10 left-1/2 -translate-x-1/2" src="./Images/Home/Frame 2147223459 (3).png" alt="" />
+    <h2 className="font-bold font-[syne] text-[20px] mt-[-12px]">Digital <br /> Marketing</h2>
+    <p className="px-5 mt-4 font-[kanit] text-[#000000B2] text-[14px]">
+     Performance-driven marketing strategies SEO, paid media, content, and more to drive traffic and ROI.
+    </p>
+    <p className="mt-8 font-[syne] text-[12px] font-bold uppercase">LEARN MORE</p>
+  </div>
+
+  {/* Card 5 */}
+  <div className="relative col-start-2 w-[290px] h-[260px] bg-white rounded-[32px] pt-16 justify-center text-center border border-transparent shadow-[0_10px_30px_rgba(0,0,0,0.08)] hover:border-black hover:shadow-[0_15px_40px_rgba(0,0,0,0.12)] transition-all duration-300">
+    <img className="absolute -top-10 left-1/2 -translate-x-1/2" src="./Images/Home/Frame 2147223459 (4).png" alt="" />
+    <h2 className="font-bold font-[syne] text-[20px] mt-[-12px]">Artificial <br /> Intelligence</h2>
+    <p className="px-5 mt-4 font-[kanit] text-[#000000B2] text-[14px]">
+    AI solutions tailored to your workflow think automation, predictive insights, and smarter decision-making
+    </p>
+    <p className="mt-8 font-[syne] text-[12px] font-bold uppercase">LEARN MORE</p>
+  </div>
+
+  {/* Card 6 */}
+  <div className="relative w-[290px] h-[260px] bg-white rounded-[32px] pt-16 text-center border border-transparent shadow-[0_10px_30px_rgba(0,0,0,0.08)] hover:border-black hover:shadow-[0_15px_40px_rgba(0,0,0,0.12)] transition-all duration-300">
+    <img className="absolute -top-10 left-1/2 -translate-x-1/2" src="./Images/Home/Frame 2147223459 (5).png" alt="" />
+    <h2 className="font-bold font-[syne] text-[20px] mt-[-12px]">Graphics <br /> Designer</h2>
+    <p className="px-5 mt-4 font-[kanit] text-[#000000B2] text-[14px]">
+      Creative visual storytelling from branding to campaigns that communicates clearly and converts effectively.
+    </p>
+    <p className="mt-8 font-[syne] text-[12px] font-bold uppercase">LEARN MORE</p>
+  </div>
+
+</div>
+
+  </div>
+
+</div>
 </div>
   );
 };

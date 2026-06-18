@@ -16,17 +16,11 @@ const Navbar = () => {
 
   return (
     <nav className="sticky top-0 z-50 bg-white px-20 py-6 flex justify-between items-center">
-
       {/* LOGO */}
-      <img
-        src="./Images/Home/MainLogo.png"
-        alt="logo"
-        className="w-36"
-      />
+      <img src="./Images/Home/MainLogo.png" alt="logo" className="w-36" />
 
       {/* MENU */}
       <ul className="flex items-center gap-8 text-[14px] font-medium uppercase">
-
         <li>
           <Link to="/">Home</Link>
         </li>
@@ -46,31 +40,47 @@ const Navbar = () => {
 
           {open && (
             <div className="absolute top-8 left-0 bg-white shadow-lg rounded-md w-52 z-50">
-              
-              <Link className="block px-4 py-2 hover:bg-gray-100" to="/services/webdevelopment">
+              <Link
+                className="block px-4 py-2 hover:bg-gray-100"
+                to="/services/webdevelopment"
+              >
                 Web Development
               </Link>
 
-              <Link className="block px-4 py-2 hover:bg-gray-100" to="/services/digitalmarketing">
+              <Link
+                className="block px-4 py-2 hover:bg-gray-100"
+                to="/services/digitalmarketing"
+              >
                 Digital Marketing
               </Link>
 
-              <Link className="block px-4 py-2 hover:bg-gray-100" to="/services/appdevelopment">
+              <Link
+                className="block px-4 py-2 hover:bg-gray-100"
+                to="/services/appdevelopment"
+              >
                 App Development
               </Link>
 
-              <Link className="block px-4 py-2 hover:bg-gray-100" to="/services/uiuxdesigner">
+              <Link
+                className="block px-4 py-2 hover:bg-gray-100"
+                to="/services/uiuxdesigner"
+              >
                 UI/UX Designer
               </Link>
 
-              <Link className="block px-4 py-2 hover:bg-gray-100" to="/services/ai">
+              <Link
+                className="block px-4 py-2 hover:bg-gray-100"
+                to="/services/ai"
+              >
                 Artificial Intelligence
               </Link>
 
-              <Link className="block px-4 py-2 hover:bg-gray-100" to="/services/graphicsdesigner">
+              <Link
+                className="block px-4 py-2 hover:bg-gray-100"
+                to="/services/graphicsdesigner"
+              >
                 Graphics Designer
               </Link>
-
             </div>
           )}
         </li>
@@ -88,14 +98,14 @@ const Navbar = () => {
           <FontAwesomeIcon className="text-blue-600" icon={faPhone} />
           (720) 360-0903
         </li>
-
       </ul>
 
       {/* RIGHT SIDE BUTTONS */}
       <div className="flex items-center gap-4">
-
         <button className="uppercase text-[14px] px-6 py-2 text-white rounded-md bg-gradient-to-r from-[#6754E9] to-[#4534B8]">
-         <Link to="/contact">Lets Talk <FontAwesomeIcon icon={faArrowRight} /></Link> 
+          <Link to="/contact">
+            Lets Talk <FontAwesomeIcon icon={faArrowRight} />
+          </Link>
         </button>
 
         <button
@@ -104,9 +114,7 @@ const Navbar = () => {
         >
           Logout
         </button>
-
       </div>
-
     </nav>
   );
 };
