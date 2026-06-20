@@ -6,6 +6,8 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { faCaretRight } from "@fortawesome/free-solid-svg-icons"; 
 import { faSquareCheck } from "@fortawesome/free-solid-svg-icons";
 import { faCircle } from "@fortawesome/free-solid-svg-icons";
+
+
 const Dashboad = () => {
    const [service, setService] = useState("web");
   return (
@@ -391,25 +393,20 @@ Our work goes beyond trends. We deliver forward-thinking marketing, <br /> power
       </p>
     </div>
 
-      <div className="flex w-[1050px] h-[430px] ml-30 mt-10  rounded-[40px] bg-[#F7F7FA] overflow-hidden">
-  <div className="w-[300px] bg-[#4C3BC2]  p-8 flex flex-col gap-4">
+  <div className=" p-8 flex flex-row gap-2">
     
     <button
-  onClick={() => setService("web")}
-  className="w-80 px-6 py-3 bg-black text-white font-syne text-[16px] font-semibold rounded-[50px] shadow-md"
+  onClick={() => setService("website")}
+  className="w-40 bg-white text-black hover:bg-[#6754E9] hover:text-white focus:bg-[#6754E9] focus:text-white  font-syne text-[16px] font-semibold rounded-[10px] shadow-md"
 >
-  Web Development
-  <FontAwesomeIcon
-    className="rounded-[50px] border-blue-500 border-2 bg-blue-500 ml-27"
-    icon={faCaretRight}
-  />
+  Website
 </button>
 
-<button
-  onClick={() => setService("app")}
-  className="w-67 px-6 py-3 focus:bg-black text-white text-left hover:text-white hover:bg-black rounded-bl-[50px] rounded-tl-[50px] transition-all duration-300"
+  <button
+  onClick={() => setService("Logo")}
+  className="w-40 bg-white text-black hover:bg-[#6754E9] hover:text-white focus:bg-[#6754E9] focus:text-white  font-syne text-[16px] font-semibold rounded-[10px] shadow-md"
 >
-  App Development
+ Logo
 </button>
 
 <button
@@ -445,36 +442,38 @@ Our work goes beyond trends. We deliver forward-thinking marketing, <br /> power
 
     {/* <div className="flex"> */}
       <div className="mt-27 ml-20 w-full">
-  {service === "web" && (
-    <div className="flex">
-    <div className="w-[300px]">
-      <p className=" leading-4.9 font-medium text-[15px]">
-        Build fast, secure, and scalable websites that rank and convert.
-      </p>
-      <p className="font-[kanit] text-[14px] mt-5"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> Custom Website Design & Development</p>
-      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> Responsive & Mobile-First Design</p>
-      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> SEO-Optimized Structure</p>
-      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> High-Speed Performance</p>
-      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> CMS Development WordPress & Shopify</p>
-      </div>
-      <div className="mt-[-32px] ml-[20px]">
-        <img src="./Images/Home/Web Development.png" />
-    </div>
+  {service === "website" && (
+    <div className="">
+      <h1>Silver Package</h1>
+      <p>$459 <span>$759</span></p>
+      <div></div>
+      <p>
+      <FontAwesomeIcon
+  icon={faSquareCheck}
+  className="text-blue-500 text-[18px]"
+/>
+5 Pages Website
+</p>
+  <p>
+      <FontAwesomeIcon
+  icon={faSquareCheck}
+  className="text-blue-500 text-[18px]"
+/>
+3 Banner Design
+</p>
+  <p>
+      <FontAwesomeIcon
+  icon={faSquareCheck}
+  className="text-blue-500 text-[18px]"
+/>
+5 Pages Website
+</p>
     </div>
   )}
 
  {service === "app" && (
-    <div className="flex">
-    <div className="w-[300px]">
-      <p className=" leading-4.9 font-medium text-[15px]">
-        Build fast, secure, and scalable websites that rank and convert.
-      </p>
-      <p className="font-[kanit] text-[14px] mt-5"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> Custom Website Design & Development</p>
-      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> Responsive & Mobile-First Design</p>
-      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> SEO-Optimized Structure</p>
-      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> High-Speed Performance</p>
-      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> CMS Development WordPress & Shopify</p>
-      </div>
+    <div className="">
+ 
       <div className="mt-[-32px] ml-[20px]">
         <img src="./Images/Home/App development.png" />
     </div>
@@ -482,17 +481,8 @@ Our work goes beyond trends. We deliver forward-thinking marketing, <br /> power
   )}
 
    {service === "uiux" && (
-    <div className="flex">
-    <div className="w-[300px]">
-      <p className=" leading-4.9 font-medium text-[15px]">
-        Build fast, secure, and scalable websites that rank and convert.
-      </p>
-      <p className="font-[kanit] text-[14px] mt-5"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> Custom Website Design & Development</p>
-      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> Responsive & Mobile-First Design</p>
-      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> SEO-Optimized Structure</p>
-      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> High-Speed Performance</p>
-      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> CMS Development WordPress & Shopify</p>
-      </div>
+    <div className="">
+ 
       <div className="mt-[-32px] ml-[20px]">
         <img src="./Images/Home/UI UX Design.png" />
     </div>
@@ -501,17 +491,7 @@ Our work goes beyond trends. We deliver forward-thinking marketing, <br /> power
 
    
    {service === "digital" && (
-    <div className="flex">
-    <div className="w-[300px]">
-      <p className=" leading-4.9 font-medium text-[15px]">
-        Build fast, secure, and scalable websites that rank and convert.
-      </p>
-      <p className="font-[kanit] text-[14px] mt-5"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> Custom Website Design & Development</p>
-      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> Responsive & Mobile-First Design</p>
-      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> SEO-Optimized Structure</p>
-      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> High-Speed Performance</p>
-      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> CMS Development WordPress & Shopify</p>
-      </div>
+    <div className="">
       <div className="mt-[-32px] ml-[20px]">
         <img src="./Images/Home/Digital Marketing.png" />
     </div>
@@ -519,17 +499,7 @@ Our work goes beyond trends. We deliver forward-thinking marketing, <br /> power
   )}
 
    {service === "ai" && (
-    <div className="flex">
-    <div className="w-[300px]">
-      <p className=" leading-4.9 font-medium text-[15px]">
-        Build fast, secure, and scalable websites that rank and convert.
-      </p>
-      <p className="font-[kanit] text-[14px] mt-5"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> Custom Website Design & Development</p>
-      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> Responsive & Mobile-First Design</p>
-      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> SEO-Optimized Structure</p>
-      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> High-Speed Performance</p>
-      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> CMS Development WordPress & Shopify</p>
-      </div>
+    <div className="">
       <div className="mt-[-32px] ml-[20px]">
         <img src="./Images/Home/AI.png" />
     </div>
@@ -537,23 +507,12 @@ Our work goes beyond trends. We deliver forward-thinking marketing, <br /> power
   )}
 
    {service === "graphics" && (
-    <div className="flex">
-    <div className="w-[300px]">
-      <p className=" leading-4.9 font-medium text-[15px]">
-        Build fast, secure, and scalable websites that rank and convert.
-      </p>
-      <p className="font-[kanit] text-[14px] mt-5"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> Custom Website Design & Development</p>
-      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> Responsive & Mobile-First Design</p>
-      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> SEO-Optimized Structure</p>
-      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> High-Speed Performance</p>
-      <p className="font-[kanit] text-[14px] mt-3"><FontAwesomeIcon className="text-blue-500" icon={faSquareCheck}/> CMS Development WordPress & Shopify</p>
-      </div>
+    <div className="">
       <div className="mt-[-32px] ml-[20px]">
         <img src="./Images/Home/Logo.png" />
     </div>
     </div>
   )}
-</div>
 </div>
 </div>
 </div>
