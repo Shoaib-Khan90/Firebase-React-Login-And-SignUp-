@@ -422,32 +422,46 @@ Our work goes beyond trends. We deliver forward-thinking marketing, <br /> power
  Logo
 </button>
 
-<button
-  onClick={() => setService("uiux")}
-  className="w-67 px-6 py-3 focus:bg-black text-white text-left hover:text-white hover:bg-black rounded-bl-[50px] rounded-tl-[50px] transition-all duration-300"
+ <button
+  onClick={() => setService("Animation")}
+  className="w-40 bg-white text-black hover:bg-[#6754E9] hover:text-white focus:bg-[#6754E9] focus:text-white  font-syne text-[16px] font-semibold rounded-[10px] shadow-md"
 >
-  UI/UX Designer
+ Animation
 </button>
 
-<button
-  onClick={() => setService("digital")}
-  className="w-67 px-6 py-3 focus:bg-black text-white text-left hover:text-white hover:bg-black rounded-bl-[50px] rounded-tl-[50px] transition-all duration-300"
+ <button
+  onClick={() => setService("Illustation")}
+  className="w-40 bg-white text-black hover:bg-[#6754E9] hover:text-white focus:bg-[#6754E9] focus:text-white  font-syne text-[16px] font-semibold rounded-[10px] shadow-md"
 >
-  Digital Marketing
+Illustration
 </button>
 
-<button
-  onClick={() => setService("ai")}
-  className="w-67 px-6 py-3 focus:bg-black text-white text-left hover:text-white hover:bg-black rounded-bl-[50px] rounded-tl-[50px] transition-all duration-300"
+ <button
+  onClick={() => setService("Branding")}
+  className="w-40 bg-white text-black hover:bg-[#6754E9] hover:text-white focus:bg-[#6754E9] focus:text-white  font-syne text-[16px] font-semibold rounded-[10px] shadow-md"
 >
-  Artificial Intelligence
+ Branding
 </button>
 
-<button
-  onClick={() => setService("graphics")}
-  className="w-67 px-6 py-3 focus:bg-black text-white text-left hover:text-white hover:bg-black rounded-bl-[50px] rounded-tl-[50px] transition-all duration-300"
+ <button
+  onClick={() => setService("SEO")}
+  className="w-40 bg-white text-black hover:bg-[#6754E9] hover:text-white focus:bg-[#6754E9] focus:text-white  font-syne text-[16px] font-semibold rounded-[10px] shadow-md"
 >
-  Graphics Designer
+ SEO
+</button>
+
+ <button
+  onClick={() => setService("Online Reputation Managment")}
+  className=" bg-white text-black hover:bg-[#6754E9] hover:text-white focus:bg-[#6754E9] focus:text-white  font-syne text-[16px] font-semibold rounded-[10px] shadow-md"
+>
+ Online Reputation Managment
+</button>
+
+ <button
+  onClick={() => setService("Social Media Marketing")}
+  className="w-40 bg-white text-black hover:bg-[#6754E9] hover:text-white focus:bg-[#6754E9] focus:text-white  font-syne text-[16px] font-semibold rounded-[10px] shadow-md"
+>
+ Social Media Marketing
 </button>
   </div>
 
@@ -1076,6 +1090,4117 @@ Our work goes beyond trends. We deliver forward-thinking marketing, <br /> power
 
         </div>
       )}
+
+      {/* Logo */}
+
+       {service === "Logo" && (
+        <div
+          ref={sliderRef}
+          className="flex  gap-4 overflow-x-hidden scroll-smooth  w-full "
+        >
+
+          {/* CARD 1 */}
+          <div className="flex-shrink-0 mb-10  p-5 w-[400px] h-[521px] rounded-[40px] bg-white shadow-[4px_4px_#6754E9]">
+            <h1 className="text-center font-[syne] font-bold text-[24px] text-[#6754E9]">
+              Startup Logo Package
+            </h1>
+
+            <p className="mt-5 text-center font-[syne] text-[32px] font-bold">
+              $49{" "}
+              <span className="text-[12px] line-through text-[#FF3D2E]">
+                $89
+              </span>
+            </p>
+
+            <div className="border border-gray-300 mt-5 w-full"></div>
+
+            <div className="h-[250px] mt-5  pr-2">
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  3 Logo Concepts
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  3 Revisions 
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  2 Dedicated Designers
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  48 Hours Turnaround Time
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+               All source files (PSD , JPG , PDF , PNG) 
+                </span>
+              </p>
+
+            </div>
+
+            <button className="ml-25 mt-10 px-6 py-3 mt-6 flex items-center gap-2 rounded-[8px] text-white bg-gradient-to-r from-[#4534B8] to-[#6754E9] hover:from-[#6754E9] hover:to-[#4534B8] transition-all duration-300">
+              Call Now <FontAwesomeIcon icon={faAngleRight} />
+            </button>
+          </div>
+
+          {/* CARD 2 */}
+          <div className="flex-shrink-0  p-5 w-[400px] h-[521px] rounded-[40px] bg-white shadow-[4px_4px_#6754E9]">
+            <h1 className="text-center font-[syne] font-bold text-[24px] text-[#6754E9]">
+             Sliver Logo Package
+            </h1>
+
+            <p className="mt-5 text-center font-[syne] text-[32px] font-bold">
+              $69{" "}
+              <span className="text-[12px] line-through text-[#FF3D2E]">
+                $129
+              </span>
+            </p>
+
+            <div className="border border-gray-300 mt-5 w-full"></div>
+
+            <div className="h-[250px] mt-5 pr-2">
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  5 Logo Concepts
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  4 Revisions 
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 4 Creative Designers 
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  48 Hours Turnaround Time 
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                All source files (PSD , JPG , PDF , PNG) 
+                </span>
+              </p>
+            </div>
+
+            <button className="ml-25 mt-10 px-6 py-3 mt-6 flex items-center gap-2 rounded-[8px] text-white bg-gradient-to-r from-[#4534B8] to-[#6754E9] hover:from-[#6754E9] hover:to-[#4534B8] transition-all duration-300">
+              Call Now <FontAwesomeIcon icon={faAngleRight} />
+            </button>
+          </div>
+
+          {/* CARD 3 */}
+          <div className="flex-shrink-0  p-5 w-[400px] h-[521px] rounded-[40px] bg-white shadow-[4px_4px_#6754E9]">
+            <h1 className="text-center font-[syne] font-bold text-[24px] text-[#6754E9]">
+             Gold Logo Package
+            </h1>
+
+            <p className="mt-5 text-center font-[syne] text-[32px] font-bold">
+              $99{" "}
+              <span className="text-[12px] line-through text-[#FF3D2E]">
+                $199
+              </span>
+            </p>
+
+            <div className="border border-gray-300 mt-5 w-full"></div>
+
+            <div className="h-[250px] mt-5 pr-2">
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 8 Logo Concepts
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Unlimited Revisions 
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Free Business Card design
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Free files (PSD , JPG , PDF , PNG) 
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Free vector Files
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Free Letter Head Design
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                6 Creative Designers
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                48 Hours Turnaround Time
+                </span>
+              </p>
+            </div>
+
+            <button className="ml-25 mt-10 px-6 py-3 mt-6 flex items-center gap-2 rounded-[8px] text-white bg-gradient-to-r from-[#4534B8] to-[#6754E9] hover:from-[#6754E9] hover:to-[#4534B8] transition-all duration-300">
+              Call Now <FontAwesomeIcon icon={faAngleRight} />
+            </button>
+          </div>
+
+          {/* CARD 4 */}
+        <div className="flex-shrink-0  p-5 w-[400px] h-[521px] rounded-[40px] bg-white shadow-[4px_4px_#6754E9]">
+            <h1 className="text-center font-[syne] font-bold text-[24px] text-[#6754E9]">
+              Business Package
+            </h1>
+
+            <p className="mt-5 text-center font-[syne] text-[32px] font-bold">
+              $2,819{" "}
+              <span className="text-[12px] line-through text-[#FF3D2E]">
+                $5,689
+              </span>
+            </p>
+
+            <div className="border border-gray-300 mt-5 w-full"></div>
+
+           <div className="h-[250px] mt-5 overflow-y-scroll pr-2">
+
+            <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  15 Seconds 2D Explainer Video
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Voice-Over & Sound Effects
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Professional Script Writing
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Storyboard
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 SEO Meta Tags
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  15 to 20 Pages Website
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Custom Media, Iteractive, Dynamic & High-End Design
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Custom Wordpress Website (or) Custom PHP Development
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  1 jQuery Slider Banner
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Up to 10 Custom Media Banner Designs
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  10 Stocks Images
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Unlimited Revisions
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Special Hover Effects
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 CMS
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Online Appointment/Scheduling/Online
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Ordering Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Online Payment Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Multi-Lingual (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Custom Dynamic Forms (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Signup Area (For NewsLetter, Offers, etc)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Live Feeds of Social Networks Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Moblie Responsive
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Free 5 Years Domains Name
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Free Google Friendly Sitemap
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Search Engine Submission
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Complete W3C Certified HTML
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Industry Specified Team of Expert Designers and Developers
+                </span>
+              </p>
+
+            </div>
+
+            <button className="ml-25 mt-10 px-6 py-3 mt-6 flex items-center gap-2 rounded-[8px] text-white bg-gradient-to-r from-[#4534B8] to-[#6754E9] hover:from-[#6754E9] hover:to-[#4534B8] transition-all duration-300">
+              Call Now <FontAwesomeIcon icon={faAngleRight} />
+            </button>
+          </div>
+
+        </div>
+      )}
+
+      {/* Animation */}
+
+      {service === "Animation" && (
+        <div
+          ref={sliderRef}
+          className="flex  gap-4 overflow-x-hidden scroll-smooth  w-full "
+        >
+
+          {/* CARD 1 */}
+          <div className="flex-shrink-0 mb-10  p-5 w-[400px] h-[521px] rounded-[40px] bg-white shadow-[4px_4px_#6754E9]">
+            <h1 className="text-center font-[syne] font-bold text-[24px] text-[#6754E9]">
+              Animation Package
+            </h1>
+
+            <p className="mt-5 text-center font-[syne] text-[32px] font-bold">
+              $459{" "}
+              <span className="text-[12px] line-through text-[#FF3D2E]">
+                $759
+              </span>
+            </p>
+
+            <div className="border border-gray-300 mt-5 w-full"></div>
+
+            <div className="h-[250px] mt-5 overflow-y-scroll pr-2">
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  5 Pages Website
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  3 Banner Design
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  1 jQuery Slider Banner
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  FREE Google Friendly Sitemap
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+               Complete W3C Certified HTML
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  48 to 72 hours TAT
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Mobile Responsive
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 CMS
+                </span>
+              </p>
+            </div>
+
+            <button className="ml-25 mt-10 px-6 py-3 mt-6 flex items-center gap-2 rounded-[8px] text-white bg-gradient-to-r from-[#4534B8] to-[#6754E9] hover:from-[#6754E9] hover:to-[#4534B8] transition-all duration-300">
+              Call Now <FontAwesomeIcon icon={faAngleRight} />
+            </button>
+          </div>
+
+          {/* CARD 2 */}
+          <div className="flex-shrink-0  p-5 w-[400px] h-[521px] rounded-[40px] bg-white shadow-[4px_4px_#6754E9]">
+            <h1 className="text-center font-[syne] font-bold text-[24px] text-[#6754E9]">
+             Gold Package
+            </h1>
+
+            <p className="mt-5 text-center font-[syne] text-[32px] font-bold">
+              $1,259{" "}
+              <span className="text-[12px] line-through text-[#FF3D2E]">
+                $2,399
+              </span>
+            </p>
+
+            <div className="border border-gray-300 mt-5 w-full"></div>
+
+            <div className="h-[250px] mt-5 overflow-y-scroll pr-2">
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Up to 15 Unique Pages Website
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Conceptual and Dynamic Website
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Moblie Responsive
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Online Payment Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Custom Forms
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Lead Capturing Forms (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Striking Hover Effects
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                NewsLetter Subscription (Optional)
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+               Newsfeed Integration
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Social Media Integration
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Search Engine Submission
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                8 Stock Photos
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                3 Unique Banner Design
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                1 JQuery Slider Banner 
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Complete W3C Certified HTML
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+               48 to 72 hours TAT
+                </span>
+              </p>
+            </div>
+
+            <button className="ml-25 mt-10 px-6 py-3 mt-6 flex items-center gap-2 rounded-[8px] text-white bg-gradient-to-r from-[#4534B8] to-[#6754E9] hover:from-[#6754E9] hover:to-[#4534B8] transition-all duration-300">
+              Call Now <FontAwesomeIcon icon={faAngleRight} />
+            </button>
+          </div>
+
+          {/* CARD 3 */}
+          <div className="flex-shrink-0  p-5 w-[400px] h-[521px] rounded-[40px] bg-white shadow-[4px_4px_#6754E9]">
+            <h1 className="text-center font-[syne] font-bold text-[24px] text-[#6754E9]">
+             Titanium Package
+            </h1>
+
+            <p className="mt-5 text-center font-[syne] text-[32px] font-bold">
+              $2,239{" "}
+              <span className="text-[12px] line-through text-[#FF3D2E]">
+                $4,019
+              </span>
+            </p>
+
+            <div className="border border-gray-300 mt-5 w-full"></div>
+
+            <div className="h-[250px] mt-5 overflow-y-scroll pr-2">
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Professional Website Up to 15 to 20 Pages
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Custom Media, Interactive, Dynamic & High-End Design
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Custom Wordpress Website (or) Custom PHP Development
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  1 jQuery Slider Banner
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Up to 10 Custom Media Banner Designs
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  10 Stocks Images
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Unlimited Revisions
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Special Hover Effects
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 CMS
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Online Appointment/Scheduling/Online
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Ordering Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Online Payment Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Multi-Lingual (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Custom Dynamic Forms (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Signup Area (For NewsLetter, Offers, etc)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Live Feeds of Social Networks Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Moblie Responsive
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Free 5 Years Domains Name
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Free Google Friendly Sitemap
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Complete W3C Certified HTML
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Industry Specified Team of Expert Designers and Developers
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Dedicated Accounts Manager
+                </span>
+              </p>
+            </div>
+
+            <button className="ml-25 mt-10 px-6 py-3 mt-6 flex items-center gap-2 rounded-[8px] text-white bg-gradient-to-r from-[#4534B8] to-[#6754E9] hover:from-[#6754E9] hover:to-[#4534B8] transition-all duration-300">
+              Call Now <FontAwesomeIcon icon={faAngleRight} />
+            </button>
+          </div>
+
+          {/* CARD 4 */}
+        <div className="flex-shrink-0  p-5 w-[400px] h-[521px] rounded-[40px] bg-white shadow-[4px_4px_#6754E9]">
+            <h1 className="text-center font-[syne] font-bold text-[24px] text-[#6754E9]">
+              Business Package
+            </h1>
+
+            <p className="mt-5 text-center font-[syne] text-[32px] font-bold">
+              $2,819{" "}
+              <span className="text-[12px] line-through text-[#FF3D2E]">
+                $5,689
+              </span>
+            </p>
+
+            <div className="border border-gray-300 mt-5 w-full"></div>
+
+           <div className="h-[250px] mt-5 overflow-y-scroll pr-2">
+
+            <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  15 Seconds 2D Explainer Video
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Voice-Over & Sound Effects
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Professional Script Writing
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Storyboard
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 SEO Meta Tags
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  15 to 20 Pages Website
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Custom Media, Iteractive, Dynamic & High-End Design
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Custom Wordpress Website (or) Custom PHP Development
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  1 jQuery Slider Banner
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Up to 10 Custom Media Banner Designs
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  10 Stocks Images
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Unlimited Revisions
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Special Hover Effects
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 CMS
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Online Appointment/Scheduling/Online
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Ordering Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Online Payment Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Multi-Lingual (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Custom Dynamic Forms (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Signup Area (For NewsLetter, Offers, etc)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Live Feeds of Social Networks Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Moblie Responsive
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Free 5 Years Domains Name
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Free Google Friendly Sitemap
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Search Engine Submission
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Complete W3C Certified HTML
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Industry Specified Team of Expert Designers and Developers
+                </span>
+              </p>
+
+            </div>
+
+            <button className="ml-25 mt-10 px-6 py-3 mt-6 flex items-center gap-2 rounded-[8px] text-white bg-gradient-to-r from-[#4534B8] to-[#6754E9] hover:from-[#6754E9] hover:to-[#4534B8] transition-all duration-300">
+              Call Now <FontAwesomeIcon icon={faAngleRight} />
+            </button>
+          </div>
+
+        </div>
+      )}
+
+      {/* Illustartion */}
+
+      {service === "Illustation" && (
+        <div
+          ref={sliderRef}
+          className="flex  gap-4 overflow-x-hidden scroll-smooth  w-full "
+        >
+
+          {/* CARD 1 */}
+          <div className="flex-shrink-0 mb-10  p-5 w-[400px] h-[521px] rounded-[40px] bg-white shadow-[4px_4px_#6754E9]">
+            <h1 className="text-center font-[syne] font-bold text-[24px] text-[#6754E9]">
+              Silver Package
+            </h1>
+
+            <p className="mt-5 text-center font-[syne] text-[32px] font-bold">
+              $459{" "}
+              <span className="text-[12px] line-through text-[#FF3D2E]">
+                $759
+              </span>
+            </p>
+
+            <div className="border border-gray-300 mt-5 w-full"></div>
+
+            <div className="h-[250px] mt-5 overflow-y-scroll pr-2">
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  5 Pages Website
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  3 Banner Design
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  1 jQuery Slider Banner
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  FREE Google Friendly Sitemap
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+               Complete W3C Certified HTML
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  48 to 72 hours TAT
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Mobile Responsive
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 CMS
+                </span>
+              </p>
+            </div>
+
+            <button className="ml-25 mt-10 px-6 py-3 mt-6 flex items-center gap-2 rounded-[8px] text-white bg-gradient-to-r from-[#4534B8] to-[#6754E9] hover:from-[#6754E9] hover:to-[#4534B8] transition-all duration-300">
+              Call Now <FontAwesomeIcon icon={faAngleRight} />
+            </button>
+          </div>
+
+          {/* CARD 2 */}
+          <div className="flex-shrink-0  p-5 w-[400px] h-[521px] rounded-[40px] bg-white shadow-[4px_4px_#6754E9]">
+            <h1 className="text-center font-[syne] font-bold text-[24px] text-[#6754E9]">
+             Gold Package
+            </h1>
+
+            <p className="mt-5 text-center font-[syne] text-[32px] font-bold">
+              $1,259{" "}
+              <span className="text-[12px] line-through text-[#FF3D2E]">
+                $2,399
+              </span>
+            </p>
+
+            <div className="border border-gray-300 mt-5 w-full"></div>
+
+            <div className="h-[250px] mt-5 overflow-y-scroll pr-2">
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Up to 15 Unique Pages Website
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Conceptual and Dynamic Website
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Moblie Responsive
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Online Payment Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Custom Forms
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Lead Capturing Forms (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Striking Hover Effects
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                NewsLetter Subscription (Optional)
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+               Newsfeed Integration
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Social Media Integration
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Search Engine Submission
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                8 Stock Photos
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                3 Unique Banner Design
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                1 JQuery Slider Banner 
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Complete W3C Certified HTML
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+               48 to 72 hours TAT
+                </span>
+              </p>
+            </div>
+
+            <button className="ml-25 mt-10 px-6 py-3 mt-6 flex items-center gap-2 rounded-[8px] text-white bg-gradient-to-r from-[#4534B8] to-[#6754E9] hover:from-[#6754E9] hover:to-[#4534B8] transition-all duration-300">
+              Call Now <FontAwesomeIcon icon={faAngleRight} />
+            </button>
+          </div>
+
+          {/* CARD 3 */}
+          <div className="flex-shrink-0  p-5 w-[400px] h-[521px] rounded-[40px] bg-white shadow-[4px_4px_#6754E9]">
+            <h1 className="text-center font-[syne] font-bold text-[24px] text-[#6754E9]">
+             Titanium Package
+            </h1>
+
+            <p className="mt-5 text-center font-[syne] text-[32px] font-bold">
+              $2,239{" "}
+              <span className="text-[12px] line-through text-[#FF3D2E]">
+                $4,019
+              </span>
+            </p>
+
+            <div className="border border-gray-300 mt-5 w-full"></div>
+
+            <div className="h-[250px] mt-5 overflow-y-scroll pr-2">
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Professional Website Up to 15 to 20 Pages
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Custom Media, Interactive, Dynamic & High-End Design
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Custom Wordpress Website (or) Custom PHP Development
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  1 jQuery Slider Banner
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Up to 10 Custom Media Banner Designs
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  10 Stocks Images
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Unlimited Revisions
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Special Hover Effects
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 CMS
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Online Appointment/Scheduling/Online
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Ordering Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Online Payment Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Multi-Lingual (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Custom Dynamic Forms (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Signup Area (For NewsLetter, Offers, etc)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Live Feeds of Social Networks Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Moblie Responsive
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Free 5 Years Domains Name
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Free Google Friendly Sitemap
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Complete W3C Certified HTML
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Industry Specified Team of Expert Designers and Developers
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Dedicated Accounts Manager
+                </span>
+              </p>
+            </div>
+
+            <button className="ml-25 mt-10 px-6 py-3 mt-6 flex items-center gap-2 rounded-[8px] text-white bg-gradient-to-r from-[#4534B8] to-[#6754E9] hover:from-[#6754E9] hover:to-[#4534B8] transition-all duration-300">
+              Call Now <FontAwesomeIcon icon={faAngleRight} />
+            </button>
+          </div>
+
+          {/* CARD 4 */}
+        <div className="flex-shrink-0  p-5 w-[400px] h-[521px] rounded-[40px] bg-white shadow-[4px_4px_#6754E9]">
+            <h1 className="text-center font-[syne] font-bold text-[24px] text-[#6754E9]">
+              Business Package
+            </h1>
+
+            <p className="mt-5 text-center font-[syne] text-[32px] font-bold">
+              $2,819{" "}
+              <span className="text-[12px] line-through text-[#FF3D2E]">
+                $5,689
+              </span>
+            </p>
+
+            <div className="border border-gray-300 mt-5 w-full"></div>
+
+           <div className="h-[250px] mt-5 overflow-y-scroll pr-2">
+
+            <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  15 Seconds 2D Explainer Video
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Voice-Over & Sound Effects
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Professional Script Writing
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Storyboard
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 SEO Meta Tags
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  15 to 20 Pages Website
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Custom Media, Iteractive, Dynamic & High-End Design
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Custom Wordpress Website (or) Custom PHP Development
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  1 jQuery Slider Banner
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Up to 10 Custom Media Banner Designs
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  10 Stocks Images
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Unlimited Revisions
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Special Hover Effects
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 CMS
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Online Appointment/Scheduling/Online
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Ordering Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Online Payment Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Multi-Lingual (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Custom Dynamic Forms (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Signup Area (For NewsLetter, Offers, etc)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Live Feeds of Social Networks Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Moblie Responsive
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Free 5 Years Domains Name
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Free Google Friendly Sitemap
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Search Engine Submission
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Complete W3C Certified HTML
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Industry Specified Team of Expert Designers and Developers
+                </span>
+              </p>
+
+            </div>
+
+            <button className="ml-25 mt-10 px-6 py-3 mt-6 flex items-center gap-2 rounded-[8px] text-white bg-gradient-to-r from-[#4534B8] to-[#6754E9] hover:from-[#6754E9] hover:to-[#4534B8] transition-all duration-300">
+              Call Now <FontAwesomeIcon icon={faAngleRight} />
+            </button>
+          </div>
+
+        </div>
+      )}
+
+      {/* Branding */}
+
+      {service === "Branding" && (
+        <div
+          ref={sliderRef}
+          className="flex  gap-4 overflow-x-hidden scroll-smooth  w-full "
+        >
+
+          {/* CARD 1 */}
+          <div className="flex-shrink-0 mb-10  p-5 w-[400px] h-[521px] rounded-[40px] bg-white shadow-[4px_4px_#6754E9]">
+            <h1 className="text-center font-[syne] font-bold text-[24px] text-[#6754E9]">
+              Silver Package
+            </h1>
+
+            <p className="mt-5 text-center font-[syne] text-[32px] font-bold">
+              $459{" "}
+              <span className="text-[12px] line-through text-[#FF3D2E]">
+                $759
+              </span>
+            </p>
+
+            <div className="border border-gray-300 mt-5 w-full"></div>
+
+            <div className="h-[250px] mt-5 overflow-y-scroll pr-2">
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  5 Pages Website
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  3 Banner Design
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  1 jQuery Slider Banner
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  FREE Google Friendly Sitemap
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+               Complete W3C Certified HTML
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  48 to 72 hours TAT
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Mobile Responsive
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 CMS
+                </span>
+              </p>
+            </div>
+
+            <button className="ml-25 mt-10 px-6 py-3 mt-6 flex items-center gap-2 rounded-[8px] text-white bg-gradient-to-r from-[#4534B8] to-[#6754E9] hover:from-[#6754E9] hover:to-[#4534B8] transition-all duration-300">
+              Call Now <FontAwesomeIcon icon={faAngleRight} />
+            </button>
+          </div>
+
+          {/* CARD 2 */}
+          <div className="flex-shrink-0  p-5 w-[400px] h-[521px] rounded-[40px] bg-white shadow-[4px_4px_#6754E9]">
+            <h1 className="text-center font-[syne] font-bold text-[24px] text-[#6754E9]">
+             Gold Package
+            </h1>
+
+            <p className="mt-5 text-center font-[syne] text-[32px] font-bold">
+              $1,259{" "}
+              <span className="text-[12px] line-through text-[#FF3D2E]">
+                $2,399
+              </span>
+            </p>
+
+            <div className="border border-gray-300 mt-5 w-full"></div>
+
+            <div className="h-[250px] mt-5 overflow-y-scroll pr-2">
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Up to 15 Unique Pages Website
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Conceptual and Dynamic Website
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Moblie Responsive
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Online Payment Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Custom Forms
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Lead Capturing Forms (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Striking Hover Effects
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                NewsLetter Subscription (Optional)
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+               Newsfeed Integration
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Social Media Integration
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Search Engine Submission
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                8 Stock Photos
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                3 Unique Banner Design
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                1 JQuery Slider Banner 
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Complete W3C Certified HTML
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+               48 to 72 hours TAT
+                </span>
+              </p>
+            </div>
+
+            <button className="ml-25 mt-10 px-6 py-3 mt-6 flex items-center gap-2 rounded-[8px] text-white bg-gradient-to-r from-[#4534B8] to-[#6754E9] hover:from-[#6754E9] hover:to-[#4534B8] transition-all duration-300">
+              Call Now <FontAwesomeIcon icon={faAngleRight} />
+            </button>
+          </div>
+
+          {/* CARD 3 */}
+          <div className="flex-shrink-0  p-5 w-[400px] h-[521px] rounded-[40px] bg-white shadow-[4px_4px_#6754E9]">
+            <h1 className="text-center font-[syne] font-bold text-[24px] text-[#6754E9]">
+             Titanium Package
+            </h1>
+
+            <p className="mt-5 text-center font-[syne] text-[32px] font-bold">
+              $2,239{" "}
+              <span className="text-[12px] line-through text-[#FF3D2E]">
+                $4,019
+              </span>
+            </p>
+
+            <div className="border border-gray-300 mt-5 w-full"></div>
+
+            <div className="h-[250px] mt-5 overflow-y-scroll pr-2">
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Professional Website Up to 15 to 20 Pages
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Custom Media, Interactive, Dynamic & High-End Design
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Custom Wordpress Website (or) Custom PHP Development
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  1 jQuery Slider Banner
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Up to 10 Custom Media Banner Designs
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  10 Stocks Images
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Unlimited Revisions
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Special Hover Effects
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 CMS
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Online Appointment/Scheduling/Online
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Ordering Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Online Payment Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Multi-Lingual (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Custom Dynamic Forms (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Signup Area (For NewsLetter, Offers, etc)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Live Feeds of Social Networks Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Moblie Responsive
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Free 5 Years Domains Name
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Free Google Friendly Sitemap
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Complete W3C Certified HTML
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Industry Specified Team of Expert Designers and Developers
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Dedicated Accounts Manager
+                </span>
+              </p>
+            </div>
+
+            <button className="ml-25 mt-10 px-6 py-3 mt-6 flex items-center gap-2 rounded-[8px] text-white bg-gradient-to-r from-[#4534B8] to-[#6754E9] hover:from-[#6754E9] hover:to-[#4534B8] transition-all duration-300">
+              Call Now <FontAwesomeIcon icon={faAngleRight} />
+            </button>
+          </div>
+
+          {/* CARD 4 */}
+        <div className="flex-shrink-0  p-5 w-[400px] h-[521px] rounded-[40px] bg-white shadow-[4px_4px_#6754E9]">
+            <h1 className="text-center font-[syne] font-bold text-[24px] text-[#6754E9]">
+              Business Package
+            </h1>
+
+            <p className="mt-5 text-center font-[syne] text-[32px] font-bold">
+              $2,819{" "}
+              <span className="text-[12px] line-through text-[#FF3D2E]">
+                $5,689
+              </span>
+            </p>
+
+            <div className="border border-gray-300 mt-5 w-full"></div>
+
+           <div className="h-[250px] mt-5 overflow-y-scroll pr-2">
+
+            <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  15 Seconds 2D Explainer Video
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Voice-Over & Sound Effects
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Professional Script Writing
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Storyboard
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 SEO Meta Tags
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  15 to 20 Pages Website
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Custom Media, Iteractive, Dynamic & High-End Design
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Custom Wordpress Website (or) Custom PHP Development
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  1 jQuery Slider Banner
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Up to 10 Custom Media Banner Designs
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  10 Stocks Images
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Unlimited Revisions
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Special Hover Effects
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 CMS
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Online Appointment/Scheduling/Online
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Ordering Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Online Payment Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Multi-Lingual (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Custom Dynamic Forms (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Signup Area (For NewsLetter, Offers, etc)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Live Feeds of Social Networks Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Moblie Responsive
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Free 5 Years Domains Name
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Free Google Friendly Sitemap
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Search Engine Submission
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Complete W3C Certified HTML
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Industry Specified Team of Expert Designers and Developers
+                </span>
+              </p>
+
+            </div>
+
+            <button className="ml-25 mt-10 px-6 py-3 mt-6 flex items-center gap-2 rounded-[8px] text-white bg-gradient-to-r from-[#4534B8] to-[#6754E9] hover:from-[#6754E9] hover:to-[#4534B8] transition-all duration-300">
+              Call Now <FontAwesomeIcon icon={faAngleRight} />
+            </button>
+          </div>
+
+        </div>
+      )}
+
+      {/* SEO */}
+
+      {service === "SEO" && (
+        <div
+          ref={sliderRef}
+          className="flex  gap-4 overflow-x-hidden scroll-smooth  w-full "
+        >
+
+          {/* CARD 1 */}
+          <div className="flex-shrink-0 mb-10  p-5 w-[400px] h-[521px] rounded-[40px] bg-white shadow-[4px_4px_#6754E9]">
+            <h1 className="text-center font-[syne] font-bold text-[24px] text-[#6754E9]">
+              Silver Package
+            </h1>
+
+            <p className="mt-5 text-center font-[syne] text-[32px] font-bold">
+              $459{" "}
+              <span className="text-[12px] line-through text-[#FF3D2E]">
+                $759
+              </span>
+            </p>
+
+            <div className="border border-gray-300 mt-5 w-full"></div>
+
+            <div className="h-[250px] mt-5 overflow-y-scroll pr-2">
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  5 Pages Website
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  3 Banner Design
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  1 jQuery Slider Banner
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  FREE Google Friendly Sitemap
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+               Complete W3C Certified HTML
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  48 to 72 hours TAT
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Mobile Responsive
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 CMS
+                </span>
+              </p>
+            </div>
+
+            <button className="ml-25 mt-10 px-6 py-3 mt-6 flex items-center gap-2 rounded-[8px] text-white bg-gradient-to-r from-[#4534B8] to-[#6754E9] hover:from-[#6754E9] hover:to-[#4534B8] transition-all duration-300">
+              Call Now <FontAwesomeIcon icon={faAngleRight} />
+            </button>
+          </div>
+
+          {/* CARD 2 */}
+          <div className="flex-shrink-0  p-5 w-[400px] h-[521px] rounded-[40px] bg-white shadow-[4px_4px_#6754E9]">
+            <h1 className="text-center font-[syne] font-bold text-[24px] text-[#6754E9]">
+             Gold Package
+            </h1>
+
+            <p className="mt-5 text-center font-[syne] text-[32px] font-bold">
+              $1,259{" "}
+              <span className="text-[12px] line-through text-[#FF3D2E]">
+                $2,399
+              </span>
+            </p>
+
+            <div className="border border-gray-300 mt-5 w-full"></div>
+
+            <div className="h-[250px] mt-5 overflow-y-scroll pr-2">
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Up to 15 Unique Pages Website
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Conceptual and Dynamic Website
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Moblie Responsive
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Online Payment Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Custom Forms
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Lead Capturing Forms (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Striking Hover Effects
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                NewsLetter Subscription (Optional)
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+               Newsfeed Integration
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Social Media Integration
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Search Engine Submission
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                8 Stock Photos
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                3 Unique Banner Design
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                1 JQuery Slider Banner 
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Complete W3C Certified HTML
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+               48 to 72 hours TAT
+                </span>
+              </p>
+            </div>
+
+            <button className="ml-25 mt-10 px-6 py-3 mt-6 flex items-center gap-2 rounded-[8px] text-white bg-gradient-to-r from-[#4534B8] to-[#6754E9] hover:from-[#6754E9] hover:to-[#4534B8] transition-all duration-300">
+              Call Now <FontAwesomeIcon icon={faAngleRight} />
+            </button>
+          </div>
+
+          {/* CARD 3 */}
+          <div className="flex-shrink-0  p-5 w-[400px] h-[521px] rounded-[40px] bg-white shadow-[4px_4px_#6754E9]">
+            <h1 className="text-center font-[syne] font-bold text-[24px] text-[#6754E9]">
+             Titanium Package
+            </h1>
+
+            <p className="mt-5 text-center font-[syne] text-[32px] font-bold">
+              $2,239{" "}
+              <span className="text-[12px] line-through text-[#FF3D2E]">
+                $4,019
+              </span>
+            </p>
+
+            <div className="border border-gray-300 mt-5 w-full"></div>
+
+            <div className="h-[250px] mt-5 overflow-y-scroll pr-2">
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Professional Website Up to 15 to 20 Pages
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Custom Media, Interactive, Dynamic & High-End Design
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Custom Wordpress Website (or) Custom PHP Development
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  1 jQuery Slider Banner
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Up to 10 Custom Media Banner Designs
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  10 Stocks Images
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Unlimited Revisions
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Special Hover Effects
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 CMS
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Online Appointment/Scheduling/Online
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Ordering Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Online Payment Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Multi-Lingual (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Custom Dynamic Forms (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Signup Area (For NewsLetter, Offers, etc)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Live Feeds of Social Networks Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Moblie Responsive
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Free 5 Years Domains Name
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Free Google Friendly Sitemap
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Complete W3C Certified HTML
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Industry Specified Team of Expert Designers and Developers
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Dedicated Accounts Manager
+                </span>
+              </p>
+            </div>
+
+            <button className="ml-25 mt-10 px-6 py-3 mt-6 flex items-center gap-2 rounded-[8px] text-white bg-gradient-to-r from-[#4534B8] to-[#6754E9] hover:from-[#6754E9] hover:to-[#4534B8] transition-all duration-300">
+              Call Now <FontAwesomeIcon icon={faAngleRight} />
+            </button>
+          </div>
+
+          {/* CARD 4 */}
+        <div className="flex-shrink-0  p-5 w-[400px] h-[521px] rounded-[40px] bg-white shadow-[4px_4px_#6754E9]">
+            <h1 className="text-center font-[syne] font-bold text-[24px] text-[#6754E9]">
+              Business Package
+            </h1>
+
+            <p className="mt-5 text-center font-[syne] text-[32px] font-bold">
+              $2,819{" "}
+              <span className="text-[12px] line-through text-[#FF3D2E]">
+                $5,689
+              </span>
+            </p>
+
+            <div className="border border-gray-300 mt-5 w-full"></div>
+
+           <div className="h-[250px] mt-5 overflow-y-scroll pr-2">
+
+            <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  15 Seconds 2D Explainer Video
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Voice-Over & Sound Effects
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Professional Script Writing
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Storyboard
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 SEO Meta Tags
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  15 to 20 Pages Website
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Custom Media, Iteractive, Dynamic & High-End Design
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Custom Wordpress Website (or) Custom PHP Development
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  1 jQuery Slider Banner
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Up to 10 Custom Media Banner Designs
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  10 Stocks Images
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Unlimited Revisions
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Special Hover Effects
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 CMS
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Online Appointment/Scheduling/Online
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Ordering Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Online Payment Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Multi-Lingual (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Custom Dynamic Forms (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Signup Area (For NewsLetter, Offers, etc)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Live Feeds of Social Networks Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Moblie Responsive
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Free 5 Years Domains Name
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Free Google Friendly Sitemap
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Search Engine Submission
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Complete W3C Certified HTML
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Industry Specified Team of Expert Designers and Developers
+                </span>
+              </p>
+
+            </div>
+
+            <button className="ml-25 mt-10 px-6 py-3 mt-6 flex items-center gap-2 rounded-[8px] text-white bg-gradient-to-r from-[#4534B8] to-[#6754E9] hover:from-[#6754E9] hover:to-[#4534B8] transition-all duration-300">
+              Call Now <FontAwesomeIcon icon={faAngleRight} />
+            </button>
+          </div>
+
+        </div>
+      )}
+
+      {/* Online Reputation Managment */}
+
+      {service === "Online Reputation Managment" && (
+        <div
+          ref={sliderRef}
+          className="flex  gap-4 overflow-x-hidden scroll-smooth  w-full "
+        >
+
+          {/* CARD 1 */}
+          <div className="flex-shrink-0 mb-10  p-5 w-[400px] h-[521px] rounded-[40px] bg-white shadow-[4px_4px_#6754E9]">
+            <h1 className="text-center font-[syne] font-bold text-[24px] text-[#6754E9]">
+              Silver Package
+            </h1>
+
+            <p className="mt-5 text-center font-[syne] text-[32px] font-bold">
+              $459{" "}
+              <span className="text-[12px] line-through text-[#FF3D2E]">
+                $759
+              </span>
+            </p>
+
+            <div className="border border-gray-300 mt-5 w-full"></div>
+
+            <div className="h-[250px] mt-5 overflow-y-scroll pr-2">
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  5 Pages Website
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  3 Banner Design
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  1 jQuery Slider Banner
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  FREE Google Friendly Sitemap
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+               Complete W3C Certified HTML
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  48 to 72 hours TAT
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Mobile Responsive
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 CMS
+                </span>
+              </p>
+            </div>
+
+            <button className="ml-25 mt-10 px-6 py-3 mt-6 flex items-center gap-2 rounded-[8px] text-white bg-gradient-to-r from-[#4534B8] to-[#6754E9] hover:from-[#6754E9] hover:to-[#4534B8] transition-all duration-300">
+              Call Now <FontAwesomeIcon icon={faAngleRight} />
+            </button>
+          </div>
+
+          {/* CARD 2 */}
+          <div className="flex-shrink-0  p-5 w-[400px] h-[521px] rounded-[40px] bg-white shadow-[4px_4px_#6754E9]">
+            <h1 className="text-center font-[syne] font-bold text-[24px] text-[#6754E9]">
+             Gold Package
+            </h1>
+
+            <p className="mt-5 text-center font-[syne] text-[32px] font-bold">
+              $1,259{" "}
+              <span className="text-[12px] line-through text-[#FF3D2E]">
+                $2,399
+              </span>
+            </p>
+
+            <div className="border border-gray-300 mt-5 w-full"></div>
+
+            <div className="h-[250px] mt-5 overflow-y-scroll pr-2">
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Up to 15 Unique Pages Website
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Conceptual and Dynamic Website
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Moblie Responsive
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Online Payment Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Custom Forms
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Lead Capturing Forms (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Striking Hover Effects
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                NewsLetter Subscription (Optional)
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+               Newsfeed Integration
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Social Media Integration
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Search Engine Submission
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                8 Stock Photos
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                3 Unique Banner Design
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                1 JQuery Slider Banner 
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Complete W3C Certified HTML
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+               48 to 72 hours TAT
+                </span>
+              </p>
+            </div>
+
+            <button className="ml-25 mt-10 px-6 py-3 mt-6 flex items-center gap-2 rounded-[8px] text-white bg-gradient-to-r from-[#4534B8] to-[#6754E9] hover:from-[#6754E9] hover:to-[#4534B8] transition-all duration-300">
+              Call Now <FontAwesomeIcon icon={faAngleRight} />
+            </button>
+          </div>
+
+          {/* CARD 3 */}
+          <div className="flex-shrink-0  p-5 w-[400px] h-[521px] rounded-[40px] bg-white shadow-[4px_4px_#6754E9]">
+            <h1 className="text-center font-[syne] font-bold text-[24px] text-[#6754E9]">
+             Titanium Package
+            </h1>
+
+            <p className="mt-5 text-center font-[syne] text-[32px] font-bold">
+              $2,239{" "}
+              <span className="text-[12px] line-through text-[#FF3D2E]">
+                $4,019
+              </span>
+            </p>
+
+            <div className="border border-gray-300 mt-5 w-full"></div>
+
+            <div className="h-[250px] mt-5 overflow-y-scroll pr-2">
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Professional Website Up to 15 to 20 Pages
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Custom Media, Interactive, Dynamic & High-End Design
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Custom Wordpress Website (or) Custom PHP Development
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  1 jQuery Slider Banner
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Up to 10 Custom Media Banner Designs
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  10 Stocks Images
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Unlimited Revisions
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Special Hover Effects
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 CMS
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Online Appointment/Scheduling/Online
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Ordering Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Online Payment Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Multi-Lingual (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Custom Dynamic Forms (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Signup Area (For NewsLetter, Offers, etc)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Live Feeds of Social Networks Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Moblie Responsive
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Free 5 Years Domains Name
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Free Google Friendly Sitemap
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Complete W3C Certified HTML
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Industry Specified Team of Expert Designers and Developers
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Dedicated Accounts Manager
+                </span>
+              </p>
+            </div>
+
+            <button className="ml-25 mt-10 px-6 py-3 mt-6 flex items-center gap-2 rounded-[8px] text-white bg-gradient-to-r from-[#4534B8] to-[#6754E9] hover:from-[#6754E9] hover:to-[#4534B8] transition-all duration-300">
+              Call Now <FontAwesomeIcon icon={faAngleRight} />
+            </button>
+          </div>
+
+          {/* CARD 4 */}
+        <div className="flex-shrink-0  p-5 w-[400px] h-[521px] rounded-[40px] bg-white shadow-[4px_4px_#6754E9]">
+            <h1 className="text-center font-[syne] font-bold text-[24px] text-[#6754E9]">
+              Business Package
+            </h1>
+
+            <p className="mt-5 text-center font-[syne] text-[32px] font-bold">
+              $2,819{" "}
+              <span className="text-[12px] line-through text-[#FF3D2E]">
+                $5,689
+              </span>
+            </p>
+
+            <div className="border border-gray-300 mt-5 w-full"></div>
+
+           <div className="h-[250px] mt-5 overflow-y-scroll pr-2">
+
+            <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  15 Seconds 2D Explainer Video
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Voice-Over & Sound Effects
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Professional Script Writing
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Storyboard
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 SEO Meta Tags
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  15 to 20 Pages Website
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Custom Media, Iteractive, Dynamic & High-End Design
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Custom Wordpress Website (or) Custom PHP Development
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  1 jQuery Slider Banner
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Up to 10 Custom Media Banner Designs
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  10 Stocks Images
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Unlimited Revisions
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Special Hover Effects
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 CMS
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Online Appointment/Scheduling/Online
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Ordering Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Online Payment Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Multi-Lingual (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Custom Dynamic Forms (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Signup Area (For NewsLetter, Offers, etc)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Live Feeds of Social Networks Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Moblie Responsive
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Free 5 Years Domains Name
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Free Google Friendly Sitemap
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Search Engine Submission
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Complete W3C Certified HTML
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Industry Specified Team of Expert Designers and Developers
+                </span>
+              </p>
+
+            </div>
+
+            <button className="ml-25 mt-10 px-6 py-3 mt-6 flex items-center gap-2 rounded-[8px] text-white bg-gradient-to-r from-[#4534B8] to-[#6754E9] hover:from-[#6754E9] hover:to-[#4534B8] transition-all duration-300">
+              Call Now <FontAwesomeIcon icon={faAngleRight} />
+            </button>
+          </div>
+
+        </div>
+      )}
+
+      {/* Social Media Marketing */}
+
+      {service === "Social Media Marketing" && (
+        <div
+          ref={sliderRef}
+          className="flex  gap-4 overflow-x-hidden scroll-smooth  w-full "
+        >
+
+          {/* CARD 1 */}
+          <div className="flex-shrink-0 mb-10  p-5 w-[400px] h-[521px] rounded-[40px] bg-white shadow-[4px_4px_#6754E9]">
+            <h1 className="text-center font-[syne] font-bold text-[24px] text-[#6754E9]">
+              Silver Package
+            </h1>
+
+            <p className="mt-5 text-center font-[syne] text-[32px] font-bold">
+              $459{" "}
+              <span className="text-[12px] line-through text-[#FF3D2E]">
+                $759
+              </span>
+            </p>
+
+            <div className="border border-gray-300 mt-5 w-full"></div>
+
+            <div className="h-[250px] mt-5 overflow-y-scroll pr-2">
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  5 Pages Website
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  3 Banner Design
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  1 jQuery Slider Banner
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  FREE Google Friendly Sitemap
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+               Complete W3C Certified HTML
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  48 to 72 hours TAT
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Mobile Responsive
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 CMS
+                </span>
+              </p>
+            </div>
+
+            <button className="ml-25 mt-10 px-6 py-3 mt-6 flex items-center gap-2 rounded-[8px] text-white bg-gradient-to-r from-[#4534B8] to-[#6754E9] hover:from-[#6754E9] hover:to-[#4534B8] transition-all duration-300">
+              Call Now <FontAwesomeIcon icon={faAngleRight} />
+            </button>
+          </div>
+
+          {/* CARD 2 */}
+          <div className="flex-shrink-0  p-5 w-[400px] h-[521px] rounded-[40px] bg-white shadow-[4px_4px_#6754E9]">
+            <h1 className="text-center font-[syne] font-bold text-[24px] text-[#6754E9]">
+             Gold Package
+            </h1>
+
+            <p className="mt-5 text-center font-[syne] text-[32px] font-bold">
+              $1,259{" "}
+              <span className="text-[12px] line-through text-[#FF3D2E]">
+                $2,399
+              </span>
+            </p>
+
+            <div className="border border-gray-300 mt-5 w-full"></div>
+
+            <div className="h-[250px] mt-5 overflow-y-scroll pr-2">
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Up to 15 Unique Pages Website
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Conceptual and Dynamic Website
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Moblie Responsive
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Online Payment Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Custom Forms
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Lead Capturing Forms (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Striking Hover Effects
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                NewsLetter Subscription (Optional)
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+               Newsfeed Integration
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Social Media Integration
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Search Engine Submission
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                8 Stock Photos
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                3 Unique Banner Design
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                1 JQuery Slider Banner 
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Complete W3C Certified HTML
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+               48 to 72 hours TAT
+                </span>
+              </p>
+            </div>
+
+            <button className="ml-25 mt-10 px-6 py-3 mt-6 flex items-center gap-2 rounded-[8px] text-white bg-gradient-to-r from-[#4534B8] to-[#6754E9] hover:from-[#6754E9] hover:to-[#4534B8] transition-all duration-300">
+              Call Now <FontAwesomeIcon icon={faAngleRight} />
+            </button>
+          </div>
+
+          {/* CARD 3 */}
+          <div className="flex-shrink-0  p-5 w-[400px] h-[521px] rounded-[40px] bg-white shadow-[4px_4px_#6754E9]">
+            <h1 className="text-center font-[syne] font-bold text-[24px] text-[#6754E9]">
+             Titanium Package
+            </h1>
+
+            <p className="mt-5 text-center font-[syne] text-[32px] font-bold">
+              $2,239{" "}
+              <span className="text-[12px] line-through text-[#FF3D2E]">
+                $4,019
+              </span>
+            </p>
+
+            <div className="border border-gray-300 mt-5 w-full"></div>
+
+            <div className="h-[250px] mt-5 overflow-y-scroll pr-2">
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Professional Website Up to 15 to 20 Pages
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Custom Media, Interactive, Dynamic & High-End Design
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Custom Wordpress Website (or) Custom PHP Development
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  1 jQuery Slider Banner
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Up to 10 Custom Media Banner Designs
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  10 Stocks Images
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Unlimited Revisions
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Special Hover Effects
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 CMS
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Online Appointment/Scheduling/Online
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Ordering Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Online Payment Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Multi-Lingual (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Custom Dynamic Forms (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Signup Area (For NewsLetter, Offers, etc)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Live Feeds of Social Networks Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Moblie Responsive
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Free 5 Years Domains Name
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Free Google Friendly Sitemap
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Complete W3C Certified HTML
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Industry Specified Team of Expert Designers and Developers
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Dedicated Accounts Manager
+                </span>
+              </p>
+            </div>
+
+            <button className="ml-25 mt-10 px-6 py-3 mt-6 flex items-center gap-2 rounded-[8px] text-white bg-gradient-to-r from-[#4534B8] to-[#6754E9] hover:from-[#6754E9] hover:to-[#4534B8] transition-all duration-300">
+              Call Now <FontAwesomeIcon icon={faAngleRight} />
+            </button>
+          </div>
+
+          {/* CARD 4 */}
+        <div className="flex-shrink-0  p-5 w-[400px] h-[521px] rounded-[40px] bg-white shadow-[4px_4px_#6754E9]">
+            <h1 className="text-center font-[syne] font-bold text-[24px] text-[#6754E9]">
+              Business Package
+            </h1>
+
+            <p className="mt-5 text-center font-[syne] text-[32px] font-bold">
+              $2,819{" "}
+              <span className="text-[12px] line-through text-[#FF3D2E]">
+                $5,689
+              </span>
+            </p>
+
+            <div className="border border-gray-300 mt-5 w-full"></div>
+
+           <div className="h-[250px] mt-5 overflow-y-scroll pr-2">
+
+            <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  15 Seconds 2D Explainer Video
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Voice-Over & Sound Effects
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Professional Script Writing
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Storyboard
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 SEO Meta Tags
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  15 to 20 Pages Website
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Custom Media, Iteractive, Dynamic & High-End Design
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Custom Wordpress Website (or) Custom PHP Development
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  1 jQuery Slider Banner
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Up to 10 Custom Media Banner Designs
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  10 Stocks Images
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Unlimited Revisions
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Special Hover Effects
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 CMS
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Online Appointment/Scheduling/Online
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Ordering Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Online Payment Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Multi-Lingual (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Custom Dynamic Forms (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Signup Area (For NewsLetter, Offers, etc)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Live Feeds of Social Networks Integration (Optional)
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Moblie Responsive
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Free 5 Years Domains Name
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                Free Google Friendly Sitemap
+                </span>
+              </p>
+
+              <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                  Search Engine Submission
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Complete W3C Certified HTML
+                </span>
+              </p>
+
+               <p className="flex items-start gap-2 mt-2">
+                <FontAwesomeIcon icon={faSquareCheck} className="text-blue-500 text-[18px]" />
+                <span className="font-[kanit] text-[16px] ml-2">
+                 Industry Specified Team of Expert Designers and Developers
+                </span>
+              </p>
+
+            </div>
+
+            <button className="ml-25 mt-10 px-6 py-3 mt-6 flex items-center gap-2 rounded-[8px] text-white bg-gradient-to-r from-[#4534B8] to-[#6754E9] hover:from-[#6754E9] hover:to-[#4534B8] transition-all duration-300">
+              Call Now <FontAwesomeIcon icon={faAngleRight} />
+            </button>
+          </div>
+
+        </div>
+      )}
+      
 
       {/* RIGHT ARROW */}
       <button
